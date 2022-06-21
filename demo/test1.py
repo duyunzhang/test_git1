@@ -16,6 +16,6 @@ def add_books(book_name):
         show_book()
         print('添加成功')
     else:
-        print('请输入您要添加的书名')
+        print('请输入您要添加的书名！')
 
 add_books('从你的全世界看路过')
