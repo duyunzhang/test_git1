@@ -4,7 +4,7 @@
 @date : 2022/07/06 18:48
 '''
 
-from xingming.test_set import *
+from test_set import *
 for i in range(0,10):
     tom=XM()
     print(tom)

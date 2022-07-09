@@ -4,7 +4,7 @@
 @date : 2022/6/27 22:11
 '''
 from locall import *
-from xingming.test_xm import *
+from test_git1.xingming.test_set import *
 
 import random
 

@@ -4,8 +4,6 @@
 @date : 2022/6/27 23:45
 '''
 
-from  xingming.test_xm import *
-import random
 
 sql='select distinct(name) from a  order by id desc'
 sql5='select * from a group by age  having count(age)>1'
