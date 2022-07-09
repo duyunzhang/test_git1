@@ -20,6 +20,9 @@ def XM():
         m2 = random.randint(0, len(ming))
 
         name = ('' + xing[x] + ming[m1] + ming[m2])
+        # print(name)
         return name
 
 
+if __name__ == '__main__':
+    XM()
