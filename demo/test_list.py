@@ -47,14 +47,16 @@ print('正数个数：' + str(len(list1) - len(list_z)))
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# 方法一
-a = [11, 3, 3, -9, -4, 25, 27, 0, -1, -5, -5,8, -27, 10, 2, -2]
 
-b = [i for i in a if i > 0]
-print("大于0的个数: %s" % len(b))
+def demo():
+    # 方法一
+    a = [11, 3, 3, -9, -4, 25, 27, 0, -1, -5, -5,8, -27, 10, 2, -2]
 
-c = [i for i in a if i < 0]
-print("小于0的个数: %s" % len(c))
+    b = [i for i in a if i > 0]
+    print("大于0的个数: %s" % len(b))
+
+    c = [i for i in a if i < 0]
+    print("小于0的个数: %s" % len(c))
 
 # 方法二
 a = [11, 3, 3, -9, -4, 25, 27, 0, -1, -5, 8, -27, 10, 2, -2]
